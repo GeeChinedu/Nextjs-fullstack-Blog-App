@@ -1,4 +1,3 @@
-// import Link from 'next/link'
 import { auth } from "@/lib/auth";
 import Links from "./links/Links";
 import styles from "./navbar.module.css";
