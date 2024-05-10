@@ -20,21 +20,17 @@ const Home = () => {
           </Link>
         </div>
         <div className={styles.brands}>
-          <Image
-            src="/brands.png"
-            alt=""
-            fill
-            className={styles.brandImage}
-          ></Image>
+          <Image src="/brands.png" alt="" fill className={styles.brandImage} />
         </div>
       </div>
 
       <div className={styles.imgContainer}>
         <Image
           src="/hero.gif"
-          alt="Hero gif image not loading"
-          fill
+          alt="gif img"
+          unoptimized={true}
           className={styles.heroImage}
+          fill
         />
       </div>
     </div>
