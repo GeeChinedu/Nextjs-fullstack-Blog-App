@@ -35,7 +35,7 @@ const Home = () => {
           alt="Hero gif image not loading"
           fill
           className={styles.heroImage}
-        ></Image>
+        />
       </div>
     </div>
   );
