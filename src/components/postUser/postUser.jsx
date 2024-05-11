@@ -14,7 +14,7 @@ import { getUser } from "@/lib/data";
 //   };
 
 const PostUser = async ({ userId }) => {
-  console.log("userId", userId);
+  // console.log("userId", userId);
   // FETCH DATA WITH AN API
   // const user = await getData(userId)
 
