@@ -33,8 +33,8 @@ const SinglePostPage = async ({ params }) => {
 
   // FETCH DATA WITHOUT AN API
   // const post = await getPost(slug);
-  console.log(post);
-  console.log(post?.createAt);
+  // console.log(post);
+  // console.log(post?.createAt);
   return (
     <div className={styles.container}>
       {post.img && (
@@ -58,7 +58,7 @@ const SinglePostPage = async ({ params }) => {
             </span>
           </div>
         </div>
-        <div className={styles.content}>{post?.desc}</div>
+        <div className={styles.content}>{post.desc}</div>
       </div>
     </div>
   );
